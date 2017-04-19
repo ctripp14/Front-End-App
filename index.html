@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Project</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="demo.js"></script>
+        <link rel="stylesheet" href="demo.css" />
+    </head>
+    <body>
+        <h1>My Project</h1>
+
+        <h2>My Project</h2>
+        <input type="text" id="keywords"></input>
+        <input type="button" onclick="query();" value="Search GameMonkey" /><br>
+		<input type="radio" name="endpoint" value="genre"> Genre<br>
+		<input type="radio" name="endpoint" value="release date"> Release Date<br>
+		<input type="radio" name="endpoint" value="popularity"> Popoularity<br>
+		<!-- <input type="radio" name="endpoint" value="storyline"> Storyline<br> -->
+
+
+
+        <h2>Response</h2>
+        <textarea id="rawData" rows="10" cols="80"></textarea>
+
+        <h2>Results</h2>
+        <div id="results">
+        </div>
+    </body>
+</html>
+
+
