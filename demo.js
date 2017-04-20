@@ -4,7 +4,7 @@ function query() {
 	var encoded = encodeURIComponent(criteria);
 	var coverURL = "";
 	apiUrl = apiUrl + encoded;
-	var key = "dxK6M0nyr9mshvVjxr9d1wQWT2iMp1tkD5Jjsn3GEdhtLA297F";
+	var key = "";
     if (criteria.length > 0) {
         $("#results").empty();
         
